@@ -65,6 +65,7 @@
               "buildTarget": "angular-poc:build:production"
             },
             "development": {
+              "proxyConfig": "proxy.conf.json",
               "buildTarget": "angular-poc:build:development"
             }
           },

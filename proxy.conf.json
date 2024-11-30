@@ -1,0 +1,18 @@
+{
+  "/ipapi/*": {
+    "target": "https://ipapi.co",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/ipapi": ""
+    }
+  },
+  "/objects/*": {
+    "target": "https://api.restful-api.dev",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/objects": ""
+    }
+  }
+}
